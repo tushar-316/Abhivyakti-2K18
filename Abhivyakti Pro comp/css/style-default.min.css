@@ -1,0 +1,374 @@
+.csi-tab .nav-pills {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(26, 31, 63, 1)', endColorstr='rgba(220, 78, 65, 0.3)', GradientType=0)
+}
+
+body,
+p {
+    font-family: Lato, sans-serif;
+    font-size: 1.6rem;
+    padding: 0;
+    margin: 0;
+    color: rgba(25, 31, 62, .7);
+    line-height: 2.4rem;
+}
+
+body {
+    background: #353b7a
+}
+
+p {
+    font-weight: 400
+}
+
+img {
+    max-width: 100%
+}
+
+
+a {
+    color: #440e8c;
+    transition-duration: .3s
+}
+
+a.active,
+a:focus,
+a:hover {
+    color: #440e8c
+}
+
+.csi-inner {
+    padding: 11rem 0
+}
+
+.csi-heading .heading {
+    font-size: 4.2rem;
+    line-height: 6.300000000000001rem;
+    color: #212739;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0 0 1rem
+}
+
+.csi-heading .subheading {
+    font-family: Lato, sans-serif;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #212739;
+    font-weight: 400;
+    margin: 0;
+    opacity: .4
+}
+
+.csi-heading-white .heading,
+.csi-heading-white .subheading {
+    color: #fff
+}
+
+.csi-subheading {
+    font-size: 2.4rem;
+    line-height: 3.5999999999999996rem;
+    text-align: center;
+    color: #3b1172;
+    text-transform: uppercase;
+    margin-bottom: 3.9rem;
+    margin-top: 0
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+.csi-inner {
+    margin: 0 auto
+}
+
+.csi-schedule {
+    -webkit-background-size: 100% auto, cover;
+    -o-background-size: 100% auto, cover;
+    -moz-background-size: 100% auto, cover;
+    background-size: 100% auto, cover
+}
+
+.csi-schedule .csi-inner {
+    background: rgba(33, 39, 57, .9)
+}
+
+.csi-schedule2 .csi-inner {
+    background: rgba(255, 255, 255, .9)
+}
+
+.csi-tab .nav > li > a:focus,
+.csi-tab .nav > li > a:hover {
+    background-color: transparent
+}
+
+.csi-tab .csi-nav,
+.csi-tab .csi-tab-content {
+    float: left
+}
+
+.csi-tab .csi-nav {
+    width: 23%;
+    margin-right: 3%;
+    padding: 3rem 0
+}
+
+.csi-tab .csi-tab-content {
+    width: 74%
+}
+
+.csi-tab .nav-pills {
+    background: #fff;
+    background: -moz-linear-gradient(top, #1a1f3f 0, rgba(048, 30, 100, .9) 100%);
+    background: -webkit-gradient(linear, bottom top, bottom top, color-stop(0, #1a1f3f), color-stop(100%, rgba(178, 30, 142, .9)));
+    background: -webkit-linear-gradient(top, #1a1f3f 0, rgba(048, 30, 142, .9) 100%);
+    background: -o-linear-gradient(top, #1a1f3f 0, rgba(048, 30, 142, .9) 100%);
+    background: -ms-linear-gradient(top, #1a1f3f 0, rgba(048, 30, 142, .9) 100%);
+    background: linear-gradient(to top, #1a1f3f 0, rgba(048, 30, 142, .9) 100%);
+    text-align: right;
+    display: inline-block;
+    margin-bottom: 2.6rem
+}
+
+.csi-tab .nav-pills li {
+    padding: 5px;
+    margin: 0 .4rem;
+    float: none
+}
+
+.csi-tab .nav-pills li a {
+    padding: 1.6rem 2rem
+}
+
+.csi-tab .nav-pills li a h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 1px
+}
+
+.csi-tab .nav-pills li a p {
+    font-size: 1.4rem;
+    line-height: 2.0999999999999996rem;
+    font-weight: 300;
+    margin: 0;
+    color: #fff;
+    opacity: .7
+}
+
+.csi-tab .nav-pills .active {
+    position: relative;
+    border-radius: 0;
+    background: 0 0
+}
+
+.csi-tab .nav-pills .active a:focus,
+.csi-tab .nav-pills .active a:hover {
+    background: 0 0;
+    margin-right: .6rem
+}
+
+.csi-tab .nav-pills .active:before {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 30px;
+    background: #16aced;
+    top: 30%;
+    right: -19px;
+    z-index: 9;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3)
+}
+
+.csi-tab .nav-pills .active a {
+    background: 0 0;
+    border-radius: 0
+}
+
+
+.csi-tab2 .nav-pills {
+    text-align: center;
+    margin-bottom: 3rem;
+    display: flex
+}
+
+.nav-pills li {
+    flex: 1;
+    float: none
+}
+
+.nav-pills li a {
+    padding: 1rem 2rem
+}
+
+.nav-pills li a h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 1px
+}
+
+.nav-pills li a p {
+    font-size: 1.4rem;
+    line-height: 2.0999999999999996rem;
+    font-weight: 300;
+    margin: 0;
+    color: #fff;
+    opacity: .7
+}
+
+.nav-pills .active::before {
+    top: auto;
+    right: 47%;
+    bottom: -30px
+}
+
+.panel-group .panel + .panel {
+    margin-top: 0
+}
+
+.panel-group {
+    margin-bottom: 0
+}
+
+.csi-tab-content {
+    background: #fff;
+    overflow: hidden
+}
+
+.csi-tab-content .active.in {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    animation-duration: .4s;
+    animation-timing-function: linear
+}
+
+.csi-panel .csi-single-schedule {
+    display: flex;
+    padding: 2rem 1.5rem
+}
+
+.csi-panel .csi-single-schedule .author {
+    max-width: 100px;
+    margin-right: 1rem
+}
+
+.csi-panel .csi-single-schedule .author img {
+    border-radius: 50%;
+    margin-bottom: .4rem;
+    border: 2px solid #353b7a
+}
+
+.csi-panel .csi-single-schedule .author-multi img {
+    width: 48%;
+    margin-right: 1%;
+    float: left
+}
+
+.csi-panel .csi-single-schedule .schedule-info {
+    width: 100%;
+    background: #f1f1f1;
+    padding: 1rem 2rem;
+    border-radius: 6px
+}
+
+.csi-panel .csi-single-schedule .schedule-info .time {
+    font-family: Oswald, sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.4000000000000004rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0
+}
+
+.csi-panel .csi-single-schedule .schedule-info .time span {
+    color: #16aced
+}
+
+.csi-panel .csi-single-schedule .schedule-info .title {
+    font-family: Oswald, sans-serif;
+    font-size: 2.6rem;
+    line-height: 3.9000000000000004rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0
+}
+
+.csi-panel .csi-single-schedule .schedule-info .author-info {
+    font-size: 1.6rem;
+    line-height: 2.4000000000000004rem;
+    font-weight: 700
+}
+
+.csi-panel .csi-single-schedule .schedule-info .author-info span {
+    color: #353b7a
+}
+
+.page .csi-schedule,
+.page-template .csi-schedule,
+.single .csi-schedule,
+.single-post .csi-schedule {
+    background-image: url(../img/finished.png);
+}
+
+.page .csi-schedule .csi-inner,
+.page-template .csi-schedule .csi-inner,
+.single .csi-schedule .csi-inner,
+.single-post .csi-schedule .csi-inner {
+    background: inherit
+}
+
+@media (max-width:500px) {
+    html {
+        font-size: 40%
+    }
+    .csi-tab .nav-pills {
+        display: inline-block
+    }
+    .csi-tab .nav-pills li {
+        flex: 2;
+        width: 70%;
+        float: right;
+        margin: 0 2%
+    }
+    .csi-tab .nav-pills .active::before {
+        display: none
+    }
+    .csi-tab .nav-pills .active {
+        background: #16aced
+    }
+
